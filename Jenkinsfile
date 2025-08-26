@@ -21,7 +21,7 @@ pipeline {
                         docker rm -f test_container || true
                         docker run -d -p 80:80 --name test_container ${DOCKER_IMAGE}
                         sleep 5
-                        curl -s http://localhost:80 | grep <title>
+                        curl -s http://localhost:80 | grep "<title>"
                         docker rm -f test_container
                     """
                 }
@@ -30,9 +30,9 @@ pipeline {
 
         stage('Push') {
             steps {
-                withCredentials([usernamePassword(credentialsId: 'dockerhub_creds', usernameVariable: 'DOCKERHUB_USER', passwordVaraible: 'DOCKERHUB_PASS')]) {
+                withCredentials([usernamePassword(credentialsId: 'dockerhub_creds', usernameVariable: 'DOCKERHUB_USER', passwordVariable: 'DOCKERHUB_PASS')]) {
                     sh """
-                        echo ${DOCKERHUB_PASS} | docker login -u ${DOCKERHUB_USER} --pasword-stdin
+                        echo ${DOCKERHUB_PASS} | docker login -u ${DOCKERHUB_USER} --password-stdin
                         docker push ${DOCKER_IMAGE}
                     """
                 }
