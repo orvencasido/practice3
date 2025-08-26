@@ -20,11 +20,11 @@
         { "name": "Connectwise | Cybersecurity Fundamentals for Engineers", "year": "2024" }
     ],
     "skills": [
-        { "category": "DevOps Tools", "items": ["Docker", "Kubernetes", "Jenkins", "Git"] },
-        { "category": "Cloud Platforms", "items": ["AWS", "Azure"] },
-        { "category": "Programming", "items": ["Python", "Bash", "YAML", "JSON"] }
+        { "category": "DevOps Tools", "items": ["Kubernetes", "Docker", "Jenkins", "Helm", "Ansible", "Git", "CI/CD", "Linux", "Networking"] },
+        { "category": "Programming", "items": ["Python", "Bash", "Java", "JavaScript", "Groovy", "YAML", "JSON"] },
+        { "category": "Cloud Platforms", "items": ["AWS", "Azure"] }
     ],
-    "profile": "Passionate DevOps apprentice with a strong foundation in cloud computing, containerization, and automation. Eager to learn and contribute to building scalable, reliable infrastructure solutions.",
+    "profile": "I enjoy working with virtual machines in the cloud, where I can experiment through trial and error without fear of breaking things—if something goes wrong, I simply spin up a new instance. I’m passionate about containerization for its isolation and self-healing capabilities, and I particularly enjoy working with Kubernetes. My interest in cloud technologies, Kubernetes, and containers drives me to continuously learn and build practical projects.",
     "experience": [
         {
             "title": "DevOps Intern",
