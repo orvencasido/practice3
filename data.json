@@ -24,7 +24,7 @@
         { "category": "Programming", "items": ["Python", "Bash", "Java", "JavaScript", "Groovy", "YAML", "JSON"] },
         { "category": "Cloud Platforms", "items": ["AWS", "Azure"] }
     ],
-    "profile": "I enjoy working with virtual machines in the cloud, where I can experiment through trial and error without fear of breaking things—if something goes wrong, I simply spin up a new instance. I’m passionate about containerization for its isolation and self-healing capabilities, and I particularly enjoy working with Kubernetes. My interest in cloud technologies, Kubernetes, and containers drives me to continuously learn and build practical projects.",
+    "profile": "I enjoy working with virtual machines in the cloud, where I can freely experiment and learn through trial and error. If something breaks, I can easily spin up a new instance or container, which allows me to explore without hesitation. I’m passionate about containerization for its isolation and self-healing capabilities, and I particularly enjoy working with Kubernetes. I also have a strong appreciation for Linux, as I believe understanding Linux provides the foundation to debug and manage almost anything. My passion for cloud technologies, Kubernetes, containers, and Linux continually drives me to learn, experiment, and build practical projects.",
     "experience": [
         {
             "title": "DevOps Intern",
