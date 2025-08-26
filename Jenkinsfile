@@ -18,6 +18,7 @@ pipeline {
             steps {
                 script {
                     sh """
+                        docker rm -f test_container || true
                         docker run -d -p 80:80 --name test_container ${DOCKER_IMAGE}
                         curl -s http://13.212.188.101:80 | grep <title>
                         docker rm -f test_container
