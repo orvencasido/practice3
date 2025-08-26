@@ -27,43 +27,44 @@
     "profile": "I enjoy working with virtual machines in the cloud, where I can freely experiment and learn through trial and error. If something breaks, I can easily spin up a new instance or container, which allows me to explore without hesitation. I’m passionate about containerization for its isolation and self-healing capabilities, and I particularly enjoy working with Kubernetes. I also have a strong appreciation for Linux, as I believe understanding Linux provides the foundation to debug and manage almost anything. My passion for cloud technologies, Kubernetes, containers, and Linux continually drives me to learn, experiment, and build practical projects.",
     "experience": [
         {
-            "title": "DevOps Intern",
-            "company": "Tech Company Inc.",
-            "duration": "Jan 2024 - Present",
+            "title": "DevOps Apprentice",
+            "company": "ESSPI | Essilor Luxottica",
+            "duration": "Jun 2025 - Present",
             "bullets": [
-                "Maintained and monitored cloud infrastructure on AWS",
-                "Supported CI/CD pipeline development using Jenkins and Git",
-                "Assisted with container orchestration using Docker and Kubernetes",
-                "Implemented infrastructure as code with Terraform"
+                "Being mentored in an enterprise-grade production DevOps environment",
+                "Taking courses in Kubernetes, Docker, and Jenkins",
+                "Working on hands-on projects to apply DevOps practices",
+                "Shadowing senior DevOps engineer to learn industry best practices",
+                "Handling ticketing systems through Jira"
             ]
         },
         {
-            "title": "IT Support Specialist",
-            "company": "Previous Company",
-            "duration": "Jun 2023 - Dec 2023",
+            "title": "Internal IT Admin",
+            "company": "Carabao Cloud Solutions Inc.",
+            "duration": "Jun. 2024 - Sep. 2024",
             "bullets": [
-                "Provided technical support for hardware and software issues",
-                "Managed user accounts and permissions",
-                "Assisted with network troubleshooting and maintenance",
-                "Documented IT procedures and created user guides"
+                "Setting up, maintaining, and updating workstations",
+                "Managing inventory, including recording serial numbers of components",
+                "Courses completed in helpdesk support, remote monitoring management, cybersecurity, and business marketing",
+                "Certified in Cybersecurity and Remote Monitoring"
             ]
         }
     ],
     "projects": [
         {
-            "title": "Automated Deployment Pipeline",
-            "tech_stack": ["Jenkins", "Docker", "AWS"],
-            "description": "Built a CI/CD pipeline that automates testing, building, and deployment of web applications to AWS."
+            "title": "Full DevOps Pipeline on Cloud VM",
+            "tech_stack": ["Git", "Jenkins", "Docker", "Kubernetes", "Virtual Machine"],
+            "description": "Created a full pipeline for my own resume website, hosted on a VM with a self-managed Jenkins server, where everything is automated from code push to deployment and fully containerized."
         },
         {
-            "title": "Kubernetes Cluster Management",
-            "tech_stack": ["Kubernetes", "Helm", "Prometheus"],
-            "description": "Implemented monitoring for Kubernetes clusters using Prometheus and Grafana."
+            "title": "Virtual Reality Simulator with Realistic Scenarios and Interactive Feedback for Individual with Communication Challenges",
+            "tech_stack": ["Unity 3D", "Large Language Model", "API Integration: TTS/STT"],
+            "description": "Created a Virutal Application in Meta Quest 2 that simulates real-life scenarios for individuals with communication challenges, integrating LLM for dynamic interactions and TTS/STT for immersive experiences."
         },
         {
-            "title": "Infrastructure as Code",
-            "tech_stack": ["Terraform", "AWS", "Ansible"],
-            "description": "Created reusable Terraform modules and Ansible playbooks for infrastructure provisioning and configuration."
+            "title": "AWS Cloud Resume Challenge",
+            "tech_stack": ["AWS Services", "S3", "CloudFront", "NameCheap", "Lambda", "DynamoDB", "API Gateway"],
+            "description": "Built and deployed a personal resume website using various AWS services, including S3 for storage, CloudFront for CDN, Lambda for backend logic, and DynamoDB for data storage."
         }
     ]
 } 
