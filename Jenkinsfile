@@ -19,7 +19,7 @@ pipeline {
                 script {
                     sh """
                         docker run -d -p 80:80 --name test_container ${DOCKER_IMAGE}
-                        CURL -s http://13.212.188.101:80 | grep <title>
+                        curl -s http://13.212.188.101:80 | grep <title>
                         docker rm -f test_container
                     """
                 }
@@ -46,6 +46,20 @@ pipeline {
                     """
                 }
             }
+        }
+    }
+
+    post {
+        always {
+            cleanWs()
+        } 
+
+        failure {
+            echo "Pipeline Failed!"
+        }
+
+        success {
+            echo "Pipeline Sucessful!"
         }
     }
 }
