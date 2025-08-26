@@ -1,0 +1,69 @@
+{
+    "name": "Orven Casido",
+    "role": "DevOps Apprentice",
+    "contact": {
+        "email": "orven.casido@email.com",
+        "phone": "+1 (555) 123-4567",
+        "location": "City, State",
+        "linkedin": "linkedin.com/in/orvencasido"
+    },
+    "education": [
+        {
+            "degree": "Bachelor of Science in Computer Science",
+            "school": "University Name",
+            "year": "2020 - 2024"
+        }
+    ],
+    "certifications": [
+        { "name": "AWS Certified Cloud Practitioner", "year": "2024" },
+        { "name": "Docker Certified Associate", "year": "2023" },
+        { "name": "Kubernetes Administrator", "year": "2023" }
+    ],
+    "skills": [
+        { "category": "DevOps Tools", "items": ["Docker", "Kubernetes", "Jenkins", "Git"] },
+        { "category": "Cloud Platforms", "items": ["AWS", "Azure", "GCP"] },
+        { "category": "Programming", "items": ["Python", "Bash", "YAML", "JSON"] }
+    ],
+    "profile": "Passionate DevOps apprentice with a strong foundation in cloud computing, containerization, and automation. Eager to learn and contribute to building scalable, reliable infrastructure solutions.",
+    "experience": [
+        {
+            "title": "DevOps Intern",
+            "company": "Tech Company Inc.",
+            "duration": "Jan 2024 - Present",
+            "bullets": [
+                "Maintained and monitored cloud infrastructure on AWS",
+                "Supported CI/CD pipeline development using Jenkins and Git",
+                "Assisted with container orchestration using Docker and Kubernetes",
+                "Implemented infrastructure as code with Terraform"
+            ]
+        },
+        {
+            "title": "IT Support Specialist",
+            "company": "Previous Company",
+            "duration": "Jun 2023 - Dec 2023",
+            "bullets": [
+                "Provided technical support for hardware and software issues",
+                "Managed user accounts and permissions",
+                "Assisted with network troubleshooting and maintenance",
+                "Documented IT procedures and created user guides"
+            ]
+        }
+    ],
+    "projects": [
+        {
+            "title": "Automated Deployment Pipeline",
+            "tech_stack": ["Jenkins", "Docker", "AWS"],
+            "description": "Built a CI/CD pipeline that automates testing, building, and deployment of web applications to AWS."
+        },
+        {
+            "title": "Kubernetes Cluster Management",
+            "tech_stack": ["Kubernetes", "Helm", "Prometheus"],
+            "description": "Implemented monitoring for Kubernetes clusters using Prometheus and Grafana."
+        },
+        {
+            "title": "Infrastructure as Code",
+            "tech_stack": ["Terraform", "AWS", "Ansible"],
+            "description": "Created reusable Terraform modules and Ansible playbooks for infrastructure provisioning and configuration."
+        }
+    ]
+} 
