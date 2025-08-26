@@ -2,26 +2,26 @@
     "name": "Orven Casido",
     "role": "DevOps Apprentice",
     "contact": {
-        "email": "orven.casido@email.com",
-        "phone": "+1 (555) 123-4567",
-        "location": "City, State",
-        "linkedin": "linkedin.com/in/orvencasido"
+        "email": "orvencasidop@gmail.com",
+        "phone": "+63 927 339 1882",
+        "location": "Muntinlupa City, Philippines",
+        "linkedin": "linkedin.com/in/orven-casido-39bb58319/"
     },
     "education": [
         {
-            "degree": "Bachelor of Science in Computer Science",
-            "school": "University Name",
-            "year": "2020 - 2024"
+            "degree": "Bachelor of Science in Computer Engineering",
+            "school": "Southern Luzon State University",
+            "year": "2021 - 2025"
         }
     ],
     "certifications": [
-        { "name": "AWS Certified Cloud Practitioner", "year": "2024" },
-        { "name": "Docker Certified Associate", "year": "2023" },
-        { "name": "Kubernetes Administrator", "year": "2023" }
+        { "name": "DICT | Proficiency Exam (Programming)", "year": "2025" },
+        { "name": "Udemy | AWS Cloud Practitioner", "year": "2024" },
+        { "name": "Connectwise | Cybersecurity Fundamentals for Engineers", "year": "2024" }
     ],
     "skills": [
         { "category": "DevOps Tools", "items": ["Docker", "Kubernetes", "Jenkins", "Git"] },
-        { "category": "Cloud Platforms", "items": ["AWS", "Azure", "GCP"] },
+        { "category": "Cloud Platforms", "items": ["AWS", "Azure"] },
         { "category": "Programming", "items": ["Python", "Bash", "YAML", "JSON"] }
     ],
     "profile": "Passionate DevOps apprentice with a strong foundation in cloud computing, containerization, and automation. Eager to learn and contribute to building scalable, reliable infrastructure solutions.",
