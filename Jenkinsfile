@@ -20,7 +20,8 @@ pipeline {
                     sh """
                         docker rm -f test_container || true
                         docker run -d -p 80:80 --name test_container ${DOCKER_IMAGE}
-                        curl -s http://13.212.188.101:80 | grep <title>
+                        sleep 5
+                        curl -s http://localhost:80 | grep <title>
                         docker rm -f test_container
                     """
                 }
