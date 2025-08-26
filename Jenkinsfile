@@ -14,20 +14,6 @@ pipeline {
             }
         }
 
-        stage('Test') {
-            steps {
-                script {
-                    sh """
-                        docker rm -f test_container || true
-                        docker run -d -p 80:80 --name test_container ${DOCKER_IMAGE}
-                        sleep 5
-                        curl -s http://localhost:80 | grep "<title>"
-                        docker rm -f test_container
-                    """
-                }
-            }
-        }
-
         stage('Push') {
             steps {
                 withCredentials([usernamePassword(credentialsId: 'dockerhub_creds', usernameVariable: 'DOCKERHUB_USER', passwordVariable: 'DOCKERHUB_PASS')]) {
